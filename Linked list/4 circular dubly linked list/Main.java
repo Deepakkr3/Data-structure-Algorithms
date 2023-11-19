@@ -11,8 +11,8 @@ class Main{
         ll.insertNode(21,3);
         ll.insertNode(41,2);
         ll.deleteNode(0);
-        ll.deleteNode(3);
-      ll.traverse();
+       //ll.deleteAll();
+       System.out.println(ll.head.value);
       
     }
 }

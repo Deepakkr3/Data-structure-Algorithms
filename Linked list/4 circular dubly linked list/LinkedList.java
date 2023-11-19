@@ -135,5 +135,18 @@ public class LinkedList {
             size--;
         }
     }
+    //delete All
+    public void deleteAll(){
+        head.previus=null;
+        tail.next=null;
+        Node temp=head;
+        while(temp!=null){
+            temp.previus=null;
+            temp=temp.next;
+        }
+       
+        head=tail=null;
+        System.out.println("sucsessfully deleted");
+    }
     
 }
